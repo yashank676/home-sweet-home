@@ -111,8 +111,7 @@ function Offers() {
               })}
             </ul>
           </main>
-          <br />
-          <br />
+
           {lastFetchedListing && (
             <p className="loadMore" onClick={onFetchMoreListings}>
               Load More

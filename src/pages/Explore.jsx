@@ -9,7 +9,7 @@ function Explore() {
       <header>
         <p className="pageHeader">Explore</p>
       </header>
-      <main>
+      <main style={{ height: "100vh" }}>
         <Slider />
         <p className="exploreCategoryHeading">Categories</p>
         <div className="exploreCategories">

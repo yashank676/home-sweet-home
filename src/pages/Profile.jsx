@@ -128,7 +128,7 @@ function Profile() {
         </button>
       </header>
       <hr />
-      <main>
+      <main style={{ height: "120vh" }}>
         <div className="profileDetailsHeader">
           <p className="profileDetailsText">Personal Details</p>
           <p
@@ -170,7 +170,7 @@ function Profile() {
         {!loading && listings?.length > 0 && (
           <>
             <p className="listingText">Your Listings</p>
-            <ul className="listingsList">
+            <ul className="categoryListings" style={{ margin: "1rem" }}>
               {listings.map((listing) => (
                 <ListingItem
                   key={listing.id}
